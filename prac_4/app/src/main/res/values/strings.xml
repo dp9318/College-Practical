@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">prac_4</string>
+    <string-array name="options">
+        <item>Tanjiro Kamodo</item>
+        <item>Nezuko Kamodo</item>
+        <item>Inosuke Hashibira</item>
+        <item>Zenitsu Agatsuma</item>
+    </string-array>
+</resources>
