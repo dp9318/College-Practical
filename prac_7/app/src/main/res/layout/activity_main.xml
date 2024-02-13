@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlVar1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tvVar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:text="What color would you like?"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvVar1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/btVar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0EA1E3"
+            android:padding="20dp"
+            android:text="Blue"
+            android:textColor="#3AA3DC"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/btVar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFD500"
+            android:padding="20dp"
+            android:text="Yellow"
+            android:textColor="#FFD500"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/btVar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:padding="20dp"
+            android:text="Red"
+            android:textColor="#FF5722"
+            android:textSize="20dp" />
+    </LinearLayout>
+</RelativeLayout>
